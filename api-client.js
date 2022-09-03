@@ -28,6 +28,7 @@ try {
         },
     });
     return await response.json();
+
   } catch (error) {
     console.log(error);
   }
@@ -60,7 +61,7 @@ try {
         },
     });
     return await response.json();
-    
+        
   } catch (error) {
     console.log(error);
   }

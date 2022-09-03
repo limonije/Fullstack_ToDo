@@ -1,20 +1,14 @@
-body{
+body {
     font-family: Tahoma;
     color: #444;
     letter-spacing: 1px;
 }
 
-h1, h2{
+h1, h2 {
     font-weight: normal;
 }
 
-#page-banner{
-    background: #eee ;
-    padding: 10px 0;
-
-}
-
-#page-banner{
+#page-banner {
     background: #eee ;
     padding: 10px 0;
 
@@ -31,7 +25,7 @@ h1, h2{
     margin: 0 auto;
 }
 
-#add-task input{
+#add-task input {
     display: block;
     margin: 20px 0;
     padding: 10px;
@@ -43,7 +37,7 @@ h1, h2{
     float: left;
 }
 
-#add-task button{
+#add-task button {
     border: 1px solid #9361bf;
     background: #9361bf;
     padding: 10px 20px;
@@ -66,7 +60,7 @@ h1, h2{
     padding: 0;
 }
 
-#task-list li{
+#task-list li {
     list-style-type: none;
     padding: 20px;
     border: 5px solid #ddd;
@@ -74,20 +68,16 @@ h1, h2{
     cursor: default;
 }
 
-#task-list li input{
+#task-list li input {
    margin-right: 50px;
 }
 
-#task-list li img{
+#task-list li img {
     width: 20px;
     height: 20px;
     float: right;
     cursor: default;
- }
-
- span {
-    width: 200px;
- }
+}
 
 .strike {
     text-decoration: line-through;
